@@ -1,6 +1,6 @@
 # Documentacion de Recogida de Datos
 
-**Alumno:** ___________________
+**Alumno:** Martin Miroslavov y Carlos Arilla
 
 ## Formato del CSV
 
@@ -31,7 +31,7 @@ Marca con [x] el metodo usado y describe brevemente:
 
 ### Metodo de recogida:
 
-- [ ] **Programa propio**: Cree un programa para jugar y guardar datos
+- [X] **Programa propio**: Cree un programa para jugar y guardar datos
 - [ ] **Manual**: Jugue partidas y apunte los resultados a mano
 - [ ] **Aplicacion/Web externa**: Use una app y exporte los datos
 - [ ] **Otro**: _________________
@@ -41,6 +41,10 @@ Marca con [x] el metodo usado y describe brevemente:
 ```
 (Explica aqui como recogiste los datos. Si usaste un programa,
 describe brevemente como funciona. Si fue manual, explica el proceso.)
+
+Cree una función en el código actual que haga una partida de piedra, papel y tijera, hasta 50 rondas. Una vez termine
+se guardan en el archivo partidas.csv. Actualmente está puesto para que juegue la IA, pero antes lo cambié y edité el
+código para que pueda elegir las dos opciones y así jugar contra mi amigo.
 
 
 
@@ -70,12 +74,12 @@ Si capturaste datos extra ademas de los basicos, marcalos aqui:
 
 ## Estadisticas del dataset
 
-- **Total de rondas:** _____
-- **Numero de sesiones/partidas:** _____
-- **Contra cuantas personas diferentes:** _____
+- **Total de rondas:** 102
+- **Numero de sesiones/partidas:** 6
+- **Contra cuantas personas diferentes:** 1
 
 ### Tipo de IA:
 
-- [ ] **IA Especifica**: Entrenada para ganar a UNA persona concreta
-  - Nombre/identificador del oponente: _________________
+- [X] **IA Especifica**: Entrenada para ganar a UNA persona concreta
+  - Nombre/identificador del oponente: Ruben Bros
 - [ ] **IA General**: Entrenada para ganar a cualquier oponente
